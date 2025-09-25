@@ -17,7 +17,7 @@ Análise exploratória completa do desafio **Titanic - Machine Learning from Dis
 ### 1) Clonar e instalar
 
 ```bash
-git clone https://github.com/<seu-usuario>/titanic-eda.git
+git clone https://github.com/BrunoMachadoF/Titanic-Kaggle-Eda-Studies.git
 cd titanic-eda
 python -m venv .venv
 # Linux/Mac
