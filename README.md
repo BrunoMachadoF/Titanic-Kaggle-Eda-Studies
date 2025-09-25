@@ -1,15 +1,27 @@
+# Titanic — EDA e Insights (Kaggle)
 
-# 🚢 Titanic - Machine Learning from Disaster
+Análise exploratória completa do desafio **Titanic - Machine Learning from Disaster** com foco em:
+- qualidade de dados,
+- estatística descritiva,
+- testes de hipótese (χ², Mann-Whitney, Kruskal),
+- correlações (Pearson, Spearman, point-biserial),
+- visualizações interativas (Plotly),
+- relatórios automatizados (ydata-profiling, Sweetviz).
 
-This repository contains my solution to the classic [Kaggle competition](https://www.kaggle.com/c/titanic), which challenges participants to predict the survival of passengers aboard the Titanic using machine learning.  
+> Autor: Bruno Machado • Engenheiro Mecânico e Cientista de Dados
 
 ---
 
-## 📌 Project Overview
+## 🔧 Reprodutibilidade
 
-The Titanic competition is one of the most popular entry-level projects in data science.  
-The goal is to build a predictive model that answers the question:
+### 1) Clonar e instalar
 
-> **"What sorts of people were more likely to survive the Titanic disaster?"**
-
-The dataset provides demographic and socio-economic information such as **name, age, gender, ticket class, and family relations**, which can be used to train models.
+```bash
+git clone https://github.com/<seu-usuario>/titanic-eda.git
+cd titanic-eda
+python -m venv .venv
+# Linux/Mac
+source .venv/bin/activate
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
