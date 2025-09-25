@@ -5,8 +5,7 @@ Análise exploratória completa do desafio **Titanic - Machine Learning from Dis
 - estatística descritiva,
 - testes de hipótese (χ², Mann-Whitney, Kruskal),
 - correlações (Pearson, Spearman, point-biserial),
-- visualizações interativas (Plotly),
-- relatórios automatizados (ydata-profiling, Sweetviz).
+- visualizações interativas (Plotly)
 
 > Autor: Bruno Machado • Engenheiro Mecânico e Cientista de Dados
 
